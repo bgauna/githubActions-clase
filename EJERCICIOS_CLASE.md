@@ -25,7 +25,7 @@ pytest
 Debería fallar el test `test_sumar_dos_numeros`, porque espera que `2 + 3` sea
 igual a `5`.
 
-En GitHub Actions debería observarse que el paso `Ejecutar tests` falla. El
+En GitHub Actions debería obse-rvarse que el paso `Ejecutar tests` falla. El
 registro del workflow mostrará el test fallido y la diferencia entre el valor
 esperado y el valor obtenido.
 
