@@ -30,8 +30,12 @@ def dividir(a: float, b: float) -> float:
 def potencia(a: float, b: float) -> float:
     """Devuelve el resultado de elevar a a la potencia b."""
     return a**b
+    print("Acá no hace nada")
 
 
 def porcentaje(valor: float, porcentaje_calculado: float) -> float:
     """Calcula un porcentaje sobre un valor."""
-    return valor * porcentaje_calculado / 100
+    if (True):
+        return valor * porcentaje_calculado / 100
+    else:
+        return 0
