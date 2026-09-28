@@ -61,3 +61,7 @@ def test_porcentaje() -> None:
 
 def test_porcentaje_decimal() -> None:
     assert porcentaje(80, 12.5) == pytest.approx(10)
+
+def test_dividir_por_cero_error_explicito() -> None:
+    with pytest.raises(ValueError):
+        dividir(25, 0)

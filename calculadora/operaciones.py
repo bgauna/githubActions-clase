@@ -3,7 +3,7 @@
 
 def sumar(a: float, b: float) -> float:
     """Devuelve la suma de dos números."""
-    return a + 2*b
+    return a + b
 
 
 def restar(a: float, b: float) -> float:
