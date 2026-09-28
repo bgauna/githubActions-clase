@@ -1,5 +1,4 @@
 import pytest
-import math
 
 from calculadora.operaciones import (
     dividir,
